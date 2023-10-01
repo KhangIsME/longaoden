@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+.head{
+    background: black;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+.left{
+    float: left;
+    width: 25%;
+    height: 400px;
+}
+.menu{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background: rgb(94, 247, 127);
+    color: black;
+}
+.cont{
+    width: 50%;
+    height: 400px;
+    float: left;
+    text-align: center;
+}
+.right{
+    float: right;
+    width: 25%;
+    height: 400px;
+}
+footer{
+    clear: left;
+    background: black;
+    text-align: center;
+    width: 100%;
+    height: 101px;
+}
+h2{
+    text-align: center;
+    color: white;
+    transition: 1s;
+}
+img{
+    display: block;
+}
+.texthead{
+    font-size: 50px;
+}
+h2:hover{
+    color: rgb(94, 247, 127);
+    transition: 1s;
+}
+.center{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
